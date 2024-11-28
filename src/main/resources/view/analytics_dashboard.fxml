@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootNode" prefHeight="676.0" prefWidth="680.0" style="-fx-background-color: #f8f9fa;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.AnalyticsDashboard">
+   <children>
+      <Label fx:id="lblStudentCount" layoutX="112.0" layoutY="87.0" prefHeight="48.0" prefWidth="98.0" textFill="#00000083">
+         <font>
+            <Font name="System Bold Italic" size="39.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblProgramCount" layoutX="332.0" layoutY="87.0" prefHeight="48.0" prefWidth="98.0" textFill="#00000083">
+         <font>
+            <Font name="System Bold Italic" size="39.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblRegCount" layoutX="536.0" layoutY="87.0" prefHeight="48.0" prefWidth="98.0" textFill="#00000083">
+         <font>
+            <Font name="System Bold Italic" size="39.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="628.0" fitWidth="602.0" layoutX="39.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/Culinary_academy_logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
